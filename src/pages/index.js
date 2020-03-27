@@ -27,9 +27,9 @@ export default class App extends React.Component {
             ullamco laborum deserunt officia mollit tempor ut sunt.
           </p>
           <Row gutter={8}>
-            {arr.map(({ n }) => (
+            {arr.map((n, i) => (
               <Col xs={24} md={8}>
-                <Request style={{ borderRadius: 8, marginTop: 8 }}>
+                <Request style={{ borderRadius: 8, marginTop: 8 }} key={i}>
                   <Card.Meta
                     title="Ut incididunt culpa minim minim ut ullamco tempor occaecat reprehenderit."
                     description="Culpa et dolore exercitation."

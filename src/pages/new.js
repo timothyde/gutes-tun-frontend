@@ -228,6 +228,19 @@ export default () => {
                 <Input />
               </Form.Item>
 
+              <Form.Item
+                name="title"
+                label="Titel"
+                rules={[
+                  {
+                    required: true,
+                    message: "Bitte gib einen Titel ein!"
+                  }
+                ]}
+              >
+                <Input />
+              </Form.Item>
+
               <Form.Item name="text" label="Text">
                 <Input.TextArea
                   rows={5}
