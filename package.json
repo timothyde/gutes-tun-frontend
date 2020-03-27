@@ -1,0 +1,25 @@
+{
+  "name": "gutestun-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Timothy Krechel",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^4.0.3",
+    "babel-plugin-import": "^1.13.0",
+    "babel-plugin-inline-import": "^3.0.0",
+    "next": "^9.3.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.7"
+  }
+}
