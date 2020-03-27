@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styled from "styled-components";
 
 const Footer = styled.footer`
@@ -9,7 +10,14 @@ const Footer = styled.footer`
 export default () => {
   return (
     <Footer>
-      &copy; 2020 tarent Solutions GmbH | Impressum | Presse | AGB
+      &copy; 2020 tarent Solutions GmbH |{" "}
+      <Link href="/impressum">
+        <a>Impressum</a>
+      </Link>{" "}
+      |{" "}
+      <Link href="/presse">
+        <a>Presse</a>
+      </Link>
     </Footer>
   );
 };

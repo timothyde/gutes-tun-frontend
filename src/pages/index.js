@@ -32,7 +32,7 @@ export default class App extends React.Component {
                 <Request style={{ borderRadius: 8, marginTop: 8 }}>
                   <Card.Meta
                     title="Ut incididunt culpa minim minim ut ullamco tempor occaecat reprehenderit."
-                    description="www.instagram.com"
+                    description="Culpa et dolore exercitation."
                   />
                   <p>
                     Sunt consequat officia tempor consequat est labore ad non
