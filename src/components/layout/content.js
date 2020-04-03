@@ -1,5 +1,5 @@
-import { Layout } from "antd";
-import styled from "styled-components";
+import { Layout } from 'antd'
+import styled from 'styled-components'
 
 const Content = styled(Layout.Content)`
   background: #fff;
@@ -12,6 +12,6 @@ const Content = styled(Layout.Content)`
   margin: 0;
   min-height: 280px;
   padding: 24px 32px;
-`;
+`
 
-export default Content;
+export default Content

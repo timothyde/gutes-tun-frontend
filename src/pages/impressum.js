@@ -1,18 +1,18 @@
-import * as React from "react";
-import { Card, Col, Row } from "antd";
-import styled from "styled-components";
+import * as React from 'react'
+import { Card, Col, Row } from 'antd'
+import styled from 'styled-components'
 
-import Wrapper from "../components/layout/layout";
-import Content from "../components/layout/content";
+import Wrapper from '../components/layout/layout'
+import Content from '../components/layout/content'
 
-const arr = Array.from(Array(12), () => Math.floor(10 * Math.random()));
+const arr = Array.from(Array(12), () => Math.floor(10 * Math.random()))
 
 const Request = styled(Card)`
   border-radius: 8px;
   height: 240px;
   padding: 16px;
   width: 100%;
-`;
+`
 
 export default class App extends React.Component {
   render() {
@@ -37,6 +37,6 @@ export default class App extends React.Component {
           </p>
         </Content>
       </Wrapper>
-    );
+    )
   }
 }

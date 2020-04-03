@@ -1,9 +1,7 @@
-import * as React from "react";
-import { Card, Col, Row } from "antd";
-import styled from "styled-components";
+import * as React from 'react'
 
-import Wrapper from "../components/layout/layout";
-import Content from "../components/layout/content";
+import Wrapper from '../components/layout/layout'
+import Content from '../components/layout/content'
 
 export default class App extends React.Component {
   render() {
@@ -40,6 +38,6 @@ export default class App extends React.Component {
           </p>
         </Content>
       </Wrapper>
-    );
+    )
   }
 }
